@@ -1,13 +1,13 @@
 cask "deploybar" do
-  version "0.1.6"
-  sha256 "9affbe3df66937abe4f3fbf5625fd5c8e7829b9e62e9565ee7ecd410068b6b71"
+  version "0.1.7"
+  sha256 "2f04e21c200a30ba7967af9b964b55b46b6de9a9bb52645a414568f75c69a410"
 
   url "https://github.com/snapre/DeployBar/releases/download/v#{version}/DeployBar-#{version}-macOS.zip"
   name "DeployBar"
   desc "Menu bar app for watching cloud deployment status"
   homepage "https://github.com/snapre/DeployBar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :ventura"
 
   app "DeployBar.app"
 
