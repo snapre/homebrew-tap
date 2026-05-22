@@ -4,7 +4,7 @@ cask "deploybar" do
 
   url "https://github.com/snapre/DeployBar/releases/download/v#{version}/DeployBar-#{version}-macOS.zip"
   name "DeployBar"
-  desc "Local-first macOS menu bar app for watching cloud deployment status"
+  desc "Menu bar app for watching cloud deployment status"
   homepage "https://github.com/snapre/DeployBar"
 
   depends_on macos: ">= :sonoma"
