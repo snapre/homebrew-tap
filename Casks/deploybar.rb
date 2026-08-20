@@ -1,6 +1,6 @@
 cask "deploybar" do
-  version "0.1.30"
-  sha256 "04bbebfa91e4ae0712a2ed3b277d36da5ff84abb4ed245d79e7d57f2f37751f2"
+  version "0.1.31"
+  sha256 "69c841e081ba05d4ec315df3a847a18afedff2ee5b4c029a749c740976c7788c"
 
   url "https://github.com/snapre/DeployBar/releases/download/v#{version}/DeployBar-#{version}-macOS.zip"
   name "DeployBar"
